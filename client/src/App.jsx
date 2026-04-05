@@ -3,7 +3,7 @@ import Login from './components/Login'
 import Dashboard from './components/Dashboard'
 import ScanLanding from './components/ScanLanding'
 
-const API_URL = 'http://127.0.0.1:5002'
+const API_URL = 'https://pierreguard-watch.onrender.com'
 
 function App() {
   const [user, setUser] = useState(null)
